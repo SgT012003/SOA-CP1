@@ -21,9 +21,9 @@ import (
 // @contact.url
 // @contact.email
 func main() {
-	r := gin.Default()
-
 	gin.SetMode(gin.ReleaseMode)
+
+	r := gin.Default()
 
 	clientController := controller.NewClientController(service.NewClientService())
 	productController := controller.NewProductController(service.NewProductService())
