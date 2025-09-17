@@ -116,10 +116,10 @@ Set local `.env` to this values with your remote or local postgres db:
 
 1. **Redirect EZ to Swagger UI** : this root access redirect you to the swagger ui page.
 ```uri
-http://127.0.0.1:8080
+http://localhost:8080
 ``` 
 
 2. **Swagger Full Path**
 ```uri
-http://127.0.0.1:8080/swagger/index.html
+http://localhost:8080/swagger/index.html
 ``` 
